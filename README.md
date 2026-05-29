@@ -16,7 +16,7 @@ Personal developer portfolio website built with pure HTML, CSS, and JavaScript.
 - Custom cursor (desktop)
 - Mobile-responsive hamburger nav
 - Dark black & neon-green theme
-- Contact form (hook up Formspree for real emails)
+- Contact form hook up Formspree for real emails
 - Resume download button
 
 ## Folder Structure
