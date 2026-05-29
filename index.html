@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manasa Panuganti | Software Engineer</title>
+  <meta name="description" content="Manasa Panuganti – Computer Science student & aspiring software engineer specializing in full-stack development, backend systems, and AI." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== CUSTOM CURSOR ===== -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-outline" id="cursorOutline"></div>
+
+  <!-- ===== LOADER ===== -->
+  <div class="loader" id="loader">
+    <div class="loader-text">
+      <span class="loader-name">MP</span>
+      <span class="loader-bar"><span class="loader-bar-fill"></span></span>
+    </div>
+  </div>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">
+      <span class="logo-bracket">&lt;</span>Manasa Panuganti<span class="logo-slash">/</span><span class="logo-bracket">&gt;</span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#certifications" class="nav-link">Certs</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+      <li><a href="assets/resume.pdf" download class="nav-resume-btn"><i class="fas fa-download"></i> Resume</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home">
+    <div class="hero-grid-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-greeting">
+        <span class="green-text">// Hello, World!</span>
+      </p>
+      <h1 class="hero-title">
+        I'm <span class="highlight-name">Manasa Panuganti</span><br />
+        <span class="hero-role" id="typedText"></span><span class="cursor-blink">|</span>
+      </h1>
+      <p class="hero-desc">
+        Computer Science student crafting clean, scalable software — from backend systems to full-stack apps and AI-powered tools.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary">View My Work <i class="fas fa-arrow-right"></i></a>
+        <a href="#contact" class="btn-secondary">Let's Talk</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://www.linkedin.com/in/manasa-panuganti" target="_blank" class="social-link" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/Manasa-2303" target="_blank" class="social-link" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="mailto:manasapanuganti2303@gmail.com" class="social-link" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+    <div class="hero-code-block">
+      <div class="code-window">
+        <div class="code-header">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green-dot"></span>
+          <span class="code-filename">manasa.py</span>
+        </div>
+        <pre class="code-body"><code><span class="c-keyword">class</span> <span class="c-class">Manasa</span>:
+  <span class="c-keyword">def</span> <span class="c-fn">__init__</span>(self):
+    self.role   = <span class="c-str">"Software Engineer"</span>
+    self.stack  = [<span class="c-str">"Python"</span>, <span class="c-str">"Node.js"</span>,
+                   <span class="c-str">"React"</span>, <span class="c-str">"SQL"</span>]
+    self.loves  = [<span class="c-str">"Backend"</span>, <span class="c-str">"AI"</span>,
+                   <span class="c-str">"Clean Code"</span>]
+    self.open_to = <span class="c-str">"opportunities"</span>
+
+  <span class="c-keyword">def</span> <span class="c-fn">say_hi</span>(self):
+    <span class="c-keyword">return</span> <span class="c-str">"Let's build something great!"</span>
+
+<span class="c-comment"># Currently: seeking SWE roles 🚀</span>
+me = <span class="c-class">Manasa</span>()
+<span class="c-fn">print</span>(me.say_hi())</code></pre>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-label"><span class="green-text">01.</span> About Me</div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <h2 class="section-title">Who I Am</h2>
+          <p>
+            I'm a Computer Science student at <strong>PSCMR College of Engineering &amp; Technology (JNTU Kakinada)</strong> with a deep passion for building software that actually matters. I love the intersection of backend architecture, full-stack development, and AI — places where logic meets creativity.
+          </p>
+          <p>
+            During my internship at <strong>Infosys Springboard</strong>, I engineered a production-grade parallel text processor that slashed processing time by <span class="green-text">70%</span> — that experience showed me how powerful well-designed systems can be at scale.
+          </p>
+          <p>
+            When I'm not coding, I'm exploring new frameworks, contributing to projects, and sharpening my problem-solving skills. I'm actively looking for <strong>SWE internships and full-time roles</strong> where I can contribute and grow.
+          </p>
+          <div class="about-stats">
+            <div class="stat-card">
+              <span class="stat-num green-text">70%</span>
+              <span class="stat-label">Processing Time<br/>Reduction</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num green-text">3+</span>
+              <span class="stat-label">Projects<br/>Delivered</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num green-text">10+</span>
+              <span class="stat-label">Technologies<br/>Mastered</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-image-wrapper reveal">
+          <div class="about-image-box">
+            <div class="about-avatar">
+              <span>MP</span>
+            </div>
+            <div class="about-badge top-right">
+              <i class="fas fa-code"></i> Open to Work
+            </div>
+            <div class="about-badge bottom-left">
+              <i class="fas fa-map-marker-alt"></i> Vijayawada, AP
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS SECTION ===== -->
+  <section class="section bg-alt" id="skills">
+    <div class="container">
+      <div class="section-label"><span class="green-text">02.</span> Skills</div>
+      <h2 class="section-title reveal">Technical Arsenal</h2>
+      <div class="skills-grid">
+        <div class="skill-category reveal">
+          <h3 class="skill-cat-title"><i class="fas fa-code"></i> Languages</h3>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="fab fa-python"></i> Python</span>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+            <span class="skill-tag"><i class="fab fa-html5"></i> HTML5</span>
+            <span class="skill-tag"><i class="fab fa-css3-alt"></i> CSS3</span>
+            <span class="skill-tag"><i class="fas fa-database"></i> SQL</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <h3 class="skill-cat-title"><i class="fas fa-layer-group"></i> Frameworks &amp; Libraries</h3>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="fab fa-react"></i> React.js</span>
+            <span class="skill-tag"><i class="fab fa-node-js"></i> Node.js</span>
+            <span class="skill-tag">Express.js</span>
+            <span class="skill-tag">Bootstrap</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <h3 class="skill-cat-title"><i class="fas fa-tools"></i> Tools &amp; Platforms</h3>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="fab fa-git-alt"></i> Git</span>
+            <span class="skill-tag"><i class="fab fa-github"></i> GitHub</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">Figma</span>
+            <span class="skill-tag">VS Code</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <h3 class="skill-cat-title"><i class="fas fa-brain"></i> Concepts</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">REST APIs</span>
+            <span class="skill-tag">OOP</span>
+            <span class="skill-tag">Multithreading</span>
+            <span class="skill-tag">NLP</span>
+            <span class="skill-tag">Data Structures</span>
+            <span class="skill-tag">Responsive Design</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS SECTION ===== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-label"><span class="green-text">03.</span> Projects</div>
+      <h2 class="section-title reveal">Things I've Built</h2>
+      <div class="projects-grid">
+
+        <div class="project-card reveal">
+          <div class="project-card-top">
+            <span class="project-tag">NLP · Python · Multithreading</span>
+            <div class="project-links">
+              <a href="https://github.com/Manasa-2303" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Parallel Text Handling Processor</h3>
+          <p class="project-desc">
+            A production-grade parallel text processing engine for extracting skills from unstructured job descriptions. Engineered at Infosys Springboard — handles large-scale recruitment datasets with automated data cleaning, NLP analysis, and multi-threaded execution.
+          </p>
+          <ul class="project-metrics">
+            <li><span class="green-text">↑ 70%</span> faster processing time</li>
+            <li><span class="green-text">✓</span> Production-ready, high-throughput architecture</li>
+          </ul>
+          <div class="project-stack">
+            <span>Python</span><span>NLP</span><span>Multithreading</span><span>Data Pipelines</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-card-top">
+            <span class="project-tag">Full-Stack · Web App</span>
+            <div class="project-links">
+              <a href="https://github.com/Manasa-2303" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="#" target="_blank" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">My Todos — Task Manager</h3>
+          <p class="project-desc">
+            A responsive, full-featured task management web app with complete CRUD functionality, priority-based organization, and real-time updates. Built with a clean UI/UX focused on reducing daily workflow friction.
+          </p>
+          <ul class="project-metrics">
+            <li><span class="green-text">↑ 35%</span> productivity improvement</li>
+            <li><span class="green-text">↓ 40%</span> task update latency</li>
+          </ul>
+          <div class="project-stack">
+            <span>HTML5</span><span>CSS3</span><span>Bootstrap</span><span>JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-card-top">
+            <span class="project-tag">Generative AI · Automation</span>
+            <div class="project-links">
+              <a href="https://github.com/Manasa-2303" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Instant Co-Creation</h3>
+          <p class="project-desc">
+            An AI-driven content generation system orchestrating automated workflows across 7+ tools — automating the full pipeline from ideation to editing. Significantly reduced manual effort and turnaround time for content teams.
+          </p>
+          <ul class="project-metrics">
+            <li><span class="green-text">↑ 40%</span> content creation efficiency</li>
+            <li><span class="green-text">✓</span> End-to-end automation pipeline</li>
+          </ul>
+          <div class="project-stack">
+            <span>ChatGPT</span><span>ClipChamp</span><span>Automation Tools</span>
+          </div>
+        </div>
+
+      </div>
+      <div class="projects-cta reveal">
+        <a href="https://github.com/Manasa-2303" target="_blank" class="btn-outline">
+          <i class="fab fa-github"></i> See All on GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE SECTION ===== -->
+  <section class="section bg-alt" id="experience">
+    <div class="container">
+      <div class="section-label"><span class="green-text">04.</span> Experience</div>
+      <h2 class="section-title reveal">Where I've Worked</h2>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Project Intern</h3>
+                <span class="timeline-company">Infosys Springboard</span>
+              </div>
+              <span class="timeline-date"><i class="fas fa-calendar-alt"></i> Oct 2025 – Dec 2025</span>
+            </div>
+            <p class="timeline-project"><i class="fas fa-folder-open"></i> Parallel Text Handling Processor for Job Description Skill Extraction</p>
+            <ul class="timeline-bullets">
+              <li>Engineered a production-grade parallel text processing engine by automating data cleaning, NLP-based analysis, and skill extraction from unstructured job descriptions.</li>
+              <li>Drove a <strong class="green-text">70% reduction</strong> in processing time by designing a multi-threaded execution model enabling high-throughput analysis at scale.</li>
+              <li>Strengthened system scalability by optimizing parallel execution architecture, improving throughput, reliability, and real-world deployment readiness.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Python</span><span>NLP</span><span>Multithreading</span><span>Data Processing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION SECTION ===== -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section-label"><span class="green-text">05.</span> Education</div>
+      <h2 class="section-title reveal">Academic Background</h2>
+      <div class="edu-grid">
+        <div class="edu-card reveal">
+          <div class="edu-icon"><i class="fas fa-university"></i></div>
+          <div class="edu-content">
+            <h3>B.Tech, Computer Science &amp; Engineering</h3>
+            <p class="edu-college">PSCMR College of Engineering &amp; Technology<br/><span class="edu-uni">JNTU Kakinada</span></p>
+            <div class="edu-meta">
+              <span><i class="fas fa-calendar"></i> 2022 – 2026</span>
+              <span class="edu-cgpa"><i class="fas fa-star"></i> CGPA: 7.83</span>
+            </div>
+          </div>
+        </div>
+        <div class="edu-card reveal">
+          <div class="edu-icon"><i class="fas fa-school"></i></div>
+          <div class="edu-content">
+            <h3>Intermediate, MPC</h3>
+            <p class="edu-college">FIITJEE JR College</p>
+            <div class="edu-meta">
+              <span><i class="fas fa-calendar"></i> Completed 2022</span>
+              <span class="edu-cgpa"><i class="fas fa-star"></i> CGPA: 7.87</span>
+            </div>
+          </div>
+        </div>
+        <div class="edu-card reveal">
+          <div class="edu-icon"><i class="fas fa-laptop-code"></i></div>
+          <div class="edu-content">
+            <h3>CCBP 4.0 Technologies</h3>
+            <p class="edu-college">NXTWAVE Trainee</p>
+            <div class="edu-meta">
+              <span><i class="fas fa-calendar"></i> 2023 – Present</span>
+              <span class="edu-cgpa green-text"><i class="fas fa-circle"></i> Active</span>
+            </div>
+            <div class="edu-courses">
+              <span>Web Development</span>
+              <span>Programming Foundations</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS SECTION ===== -->
+  <section class="section bg-alt" id="certifications">
+    <div class="container">
+      <div class="section-label"><span class="green-text">06.</span> Certifications</div>
+      <h2 class="section-title reveal">Credentials</h2>
+      <div class="certs-grid">
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+          <div class="cert-body">
+            <h3>CCBP 4.0 – Web Development</h3>
+            <p>NXTWAVE</p>
+            <span class="cert-badge">Completed</span>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+          <div class="cert-body">
+            <h3>CCBP 4.0 – Programming Foundations</h3>
+            <p>NXTWAVE</p>
+            <span class="cert-badge">Completed</span>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+          <div class="cert-body">
+            <h3>Infosys Springboard Internship</h3>
+            <p>Infosys</p>
+            <span class="cert-badge">Completed · 2025</span>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fas fa-plus"></i></div>
+          <div class="cert-body">
+            <h3>Add Your Certificate</h3>
+            <p>Platform Name</p>
+            <span class="cert-badge pending">Coming Soon</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-label"><span class="green-text">07.</span> Contact</div>
+      <h2 class="section-title reveal">Let's Connect</h2>
+      <p class="contact-intro reveal">
+        I'm currently open to SWE internships, full-time roles, and interesting collaborations. Drop me a message — I respond within 24 hours.
+      </p>
+      <div class="contact-wrapper">
+        <div class="contact-info reveal">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <span class="contact-label">Email</span>
+              <a href="mailto:manasapanuganti2303@gmail.com">manasapanuganti2303@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-linkedin-in"></i>
+            <div>
+              <span class="contact-label">LinkedIn</span>
+              <a href="https://www.linkedin.com/in/manasa-panuganti" target="_blank">linkedin.com/in/manasa-panuganti</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-github"></i>
+            <div>
+              <span class="contact-label">GitHub</span>
+              <a href="https://github.com/Manasa-2303" target="_blank">github.com/Manasa-2303</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <span class="contact-label">Phone</span>
+              <a href="tel:+919948230305">+91 9948230305</a>
+            </div>
+          </div>
+          <a href="assets/resume.pdf" download class="btn-primary download-btn">
+            <i class="fas fa-download"></i> Download Resume
+          </a>
+        </div>
+        <form class="contact-form reveal" id="contactForm">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="your@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="Opportunity / Collaboration / Hello" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Tell me what's on your mind..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary form-submit">
+            Send Message <i class="fas fa-paper-plane"></i>
+          </button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-logo">
+          <span class="logo-bracket">&lt;</span>Manasa<span class="logo-slash">/</span><span class="logo-bracket">&gt;</span>
+        </div>
+        <div class="footer-socials">
+          <a href="https://www.linkedin.com/in/manasa-panuganti" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/Manasa-2303" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="mailto:manasapanuganti2303@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Designed &amp; Built by <span class="green-text">Manasa Panuganti</span></p>
+        <p class="footer-copy">© 2025 · All rights reserved</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
