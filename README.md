@@ -2,7 +2,7 @@
 
 Personal developer portfolio website built with pure HTML, CSS, and JavaScript.
 
-**Live:** [https://manasa-2303.github.io/Portfolio/]
+**Live:** (((https://manasa-2303.github.io/Portfolio/)))
 
 ## Tech Stack
 - HTML5, CSS3 (custom properties, grid, flexbox)
