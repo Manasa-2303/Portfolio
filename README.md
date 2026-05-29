@@ -44,17 +44,5 @@ git push -u origin main
 Then go to: **GitHub repo → Settings → Pages → Source: main branch** → Save.
 Your site will be live at `https://Manasa-2303.github.io/portfolio`
 
-## Connect Real Email (Formspree)
-1. Go to https://formspree.io → create free account
-2. Create a form → copy your form endpoint
-3. In `script.js`, replace the `setTimeout` fake send with:
-```js
-const res = await fetch('https://formspree.io/f/YOUR_ID', {
-  method: 'POST',
-  headers: { 'Content-Type': 'application/json' },
-  body: JSON.stringify({ name, email, message })
-});
-```
-
 ---
 © 2025 Manasa Panuganti
