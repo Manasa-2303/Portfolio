@@ -45,4 +45,4 @@ Then go to: **GitHub repo → Settings → Pages → Source: main branch** → S
 Your site will be live at `https://Manasa-2303.github.io/portfolio`
 
 ---
-© Manasa Panuganti
+© 2026 Manasa Panuganti
