@@ -8,7 +8,6 @@ Personal developer portfolio website built with pure HTML, CSS, and JavaScript.
 - HTML5, CSS3 (custom properties, grid, flexbox)
 - Vanilla JavaScript (Intersection Observer, typewriter, custom cursor)
 - Google Fonts: JetBrains Mono + Syne
-- Font Awesome 6 icons
 
 ## Features
 - Loader animation
